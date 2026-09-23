@@ -1,7 +1,6 @@
 def km_to_m(km):
     return km * 1000
 
-
 def tonn_to_kg(tonn):
     return tonn * 1000
 
@@ -22,3 +21,5 @@ print(f"10 km = {km_to_m(10)}")
 print(f"10 tonn = {tonn_to_kg(10)}")
 print(f"10 cels = {cels_to_fars(10)}")
 convert_from_file()
+
+ROUND_DIGITS = 3
