@@ -10,7 +10,7 @@ def cels_to_fars(cels):
 
 def convert_from_file():
     try:
-        with open("bath_input.txt", 'r', encoding = 'utf-8') as f:
+        with open("batch_input.txt", 'r', encoding = 'utf-8') as f:
             values = [float(line.strip()) for line in f if line.strip()]
 
         for val in values:
@@ -18,8 +18,7 @@ def convert_from_file():
     except:
         print("error")
 
-if __name__ == "_main_":
-    print(f"10 km = {km_to_m(10)}")
-    print(f"10 tonn = {tonn_to_kg(10)}")
-    print(f"10 cels = {cels_to_fars(10)}")
-    convert_from_file()
+print(f"10 km = {km_to_m(10)}")
+print(f"10 tonn = {tonn_to_kg(10)}")
+print(f"10 cels = {cels_to_fars(10)}")
+convert_from_file()
