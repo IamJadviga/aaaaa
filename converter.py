@@ -22,4 +22,4 @@ print(f"10 tonn = {tonn_to_kg(10)}")
 print(f"10 cels = {cels_to_fars(10)}")
 convert_from_file()
 
-ROUND_DIGITS = 3
+ROUND_DIGITS = 2
